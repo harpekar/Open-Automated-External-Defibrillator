@@ -1,0 +1,778 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "04ef437a-7613-4bde-8ffe-10ddaf6e0bfd")
+	(paper "A4")
+	(title_block
+		(title "High Voltage Board")
+		(date "2017-05-30")
+		(rev "0.2")
+	)
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 107.95 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "714b7ff2-c6d9-43c6-a84a-4f705acf7078")
+	)
+	(junction
+		(at 107.95 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad1f63f1-7fc8-437e-bb76-61e71c69ead6")
+	)
+	(wire
+		(pts
+			(xy 240.03 60.96) (xy 224.79 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05b1b3a3-abc0-47dd-a805-2d7a441af7a3")
+	)
+	(wire
+		(pts
+			(xy 158.75 45.72) (xy 189.23 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "087adf71-3b32-4867-b339-73525f76f72e")
+	)
+	(wire
+		(pts
+			(xy 48.26 81.28) (xy 57.15 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dee8bd0-d03c-4084-90e1-17950e082c03")
+	)
+	(wire
+		(pts
+			(xy 107.95 60.96) (xy 123.19 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "243b4695-1617-485d-aa81-d8dfba923167")
+	)
+	(wire
+		(pts
+			(xy 107.95 57.15) (xy 107.95 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25b740ea-7422-4b9b-a020-fee7bb061c97")
+	)
+	(wire
+		(pts
+			(xy 224.79 45.72) (xy 240.03 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37f23255-6896-4ab0-a268-8f1df5a05640")
+	)
+	(wire
+		(pts
+			(xy 107.95 45.72) (xy 123.19 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54084920-671a-47d7-aa24-46028ed85812")
+	)
+	(wire
+		(pts
+			(xy 189.23 60.96) (xy 158.75 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6703cdfc-62db-420c-a800-bea64237ebdf")
+	)
+	(wire
+		(pts
+			(xy 48.26 88.9) (xy 48.26 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "673507ec-63e4-4bbb-8b1a-e3af20da22b4")
+	)
+	(wire
+		(pts
+			(xy 92.71 45.72) (xy 107.95 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a60a3e72-6eab-4cb2-bd57-01d27e4bb7a9")
+	)
+	(wire
+		(pts
+			(xy 92.71 60.96) (xy 107.95 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab7d67c3-adc3-42a4-b38b-d58ad5f5a63a")
+	)
+	(wire
+		(pts
+			(xy 107.95 45.72) (xy 107.95 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef769996-4ec9-4294-93e5-92a151821f45")
+	)
+	(global_label "TO_PATIENT+"
+		(shape bidirectional)
+		(at 240.03 45.72 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "3e9c65ac-dce9-4c69-9764-bcdc4fa68def")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.03 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TO_PATIENT-"
+		(shape bidirectional)
+		(at 240.03 60.96 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "c1f1c730-a0ba-4b13-be73-0d3d69bf8fd9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.03 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 107.95 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000057d1ae78")
+		(property "Reference" "Cout1"
+			(at 108.585 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 108.585 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fa4095ec-6d24-4a4d-8abe-a9ed25f13353")
+		)
+		(pin "1"
+			(uuid "114369ee-c94c-40ef-bce3-fe3027af0bf8")
+		)
+		(instances
+			(project "High-Voltage-board"
+				(path "/04ef437a-7613-4bde-8ffe-10ddaf6e0bfd"
+					(reference "Cout1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GND")
+		(at 48.26 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000057d1b22b")
+		(property "Reference" "#PWR1"
+			(at 48.26 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "High-Voltage-board"
+				(path "/04ef437a-7613-4bde-8ffe-10ddaf6e0bfd"
+					(reference "#PWR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 57.15 36.83)
+		(size 35.56 53.34)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-000057d16a8c")
+		(property "Sheetname" "Charging-Circuit"
+			(at 57.15 35.9914 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Charging-Circuit.kicad_sch"
+			(at 57.15 90.8562 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" output
+			(at 57.15 81.28 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "45380f25-b2f0-4c9a-aad7-21fefa3ac015")
+		)
+		(pin "HV-OUT+" output
+			(at 92.71 45.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "1ab8b224-c510-4066-aae9-bbf02b54b21f")
+		)
+		(pin "HV-OUT-" output
+			(at 92.71 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "d05c654f-0cdf-44ea-8219-d9b576067493")
+		)
+		(pin "VIN" input
+			(at 57.15 60.96 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "8c176805-0b75-458a-9d9f-350c21dc7e4f")
+		)
+		(pin "Vsense" output
+			(at 92.71 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "18ea32c0-f870-44da-a3c7-d3163eb93f4c")
+		)
+		(instances
+			(project "High-Voltage-board"
+				(path "/04ef437a-7613-4bde-8ffe-10ddaf6e0bfd"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 36.83)
+		(size 35.56 53.34)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-000057d1ae49")
+		(property "Sheetname" "Discharging Circuit"
+			(at 123.19 35.9914 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Discharging-Circuit.kicad_sch"
+			(at 123.19 90.8562 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(pin "COUT" input
+			(at 123.19 45.72 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "870b8564-ffdf-43d2-acb6-dd788b5b9ae6")
+		)
+		(pin "Φ1" input
+			(at 123.19 73.66 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "dd3bd172-d25c-4578-949d-2cffc81f857c")
+		)
+		(pin "GND" passive
+			(at 123.19 60.96 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "4015cae2-6500-4dd3-b669-eb02449dc3aa")
+		)
+		(pin "+5V" input
+			(at 158.75 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "24446d1d-a73c-4922-b2f8-1af4942c7e0f")
+		)
+		(pin "Φ2" input
+			(at 123.19 85.09 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "4e54c346-af82-429a-8bb9-0ae32f72e69c")
+		)
+		(pin "+15V" input
+			(at 158.75 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "5a476e6a-4fb5-42fe-adda-26c33de1212a")
+		)
+		(pin "+VOUT" output
+			(at 158.75 45.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "776fc10b-1150-470e-b8e5-2e9b87ad2342")
+		)
+		(pin "-VOUT" output
+			(at 158.75 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "9131f389-4278-4970-92c8-79871a7aef7e")
+		)
+		(instances
+			(project "High-Voltage-board"
+				(path "/04ef437a-7613-4bde-8ffe-10ddaf6e0bfd"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 189.23 36.83)
+		(size 35.56 53.34)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-000057d37695")
+		(property "Sheetname" "Front-End"
+			(at 189.23 35.9914 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Front-End.kicad_sch"
+			(at 189.23 90.8562 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VIN+" input
+			(at 189.23 45.72 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "fa94f99c-3e57-4d97-860e-c12f4c052003")
+		)
+		(pin "VIN-" passive
+			(at 189.23 60.96 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "e61d6d1e-1c82-4eda-8a75-e51a0ce26535")
+		)
+		(pin "DISCH1" input
+			(at 189.23 73.66 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "fafc0da1-87e4-4e46-b790-5cfa35ebdf77")
+		)
+		(pin "ECG+" output
+			(at 224.79 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "62e0c359-6afc-4bf1-9d64-21038fb535cc")
+		)
+		(pin "ECG-" output
+			(at 224.79 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "bb3a66b1-0484-48c5-bc1b-4254c6c644ee")
+		)
+		(pin "DISCH2" input
+			(at 189.23 85.09 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "9e68518f-011f-470a-b3b0-8985024dfdb7")
+		)
+		(pin "TO_PATIENT-" bidirectional
+			(at 224.79 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "4a33394d-dcce-4a81-acfe-d20249dc6292")
+		)
+		(pin "TO_PATIENT+" bidirectional
+			(at 224.79 45.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "3d686f3b-9a2b-4b48-9cea-bcbe13fba51b")
+		)
+		(instances
+			(project "High-Voltage-board"
+				(path "/04ef437a-7613-4bde-8ffe-10ddaf6e0bfd"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

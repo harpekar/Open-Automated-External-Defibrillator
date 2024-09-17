@@ -1,0 +1,832 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f8afc1e4-ee1b-4fa1-abf1-e896c3eef1dc")
+	(paper "A4")
+	(title_block
+		(title "Front End")
+		(date "2016-09-09")
+		(rev "0.1")
+		(comment 1 "AED front end.")
+	)
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "OAED-library:RTE24012"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "RTE24012"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RTE24012_0_1"
+				(rectangle
+					(start -8.89 11.43)
+					(end 8.89 -11.43)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RTE24012_1_1"
+				(pin bidirectional line
+					(at -13.97 -3.81 0)
+					(length 5.08)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -13.97 -8.89 0)
+					(length 5.08)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -13.97 8.89 0)
+					(length 5.08)
+					(name "COM1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -13.97 3.81 0)
+					(length 5.08)
+					(name "COM2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 13.97 8.89 180)
+					(length 5.08)
+					(name "NC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 13.97 3.81 180)
+					(length 5.08)
+					(name "NC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 13.97 -3.81 180)
+					(length 5.08)
+					(name "NO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 13.97 -8.89 180)
+					(length 5.08)
+					(name "NO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 118.11 97.79) (xy 176.53 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13289d31-0f55-45cf-8f2a-d11162752641")
+	)
+	(wire
+		(pts
+			(xy 118.11 90.17) (xy 137.16 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f84a6e2-038a-429c-b3ed-c68b17d9a040")
+	)
+	(wire
+		(pts
+			(xy 204.47 85.09) (xy 224.79 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3662d091-c0c8-437d-9110-21faed91c55a")
+	)
+	(wire
+		(pts
+			(xy 90.17 90.17) (xy 68.58 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "516aa57f-aecd-4dee-80a7-8e190efeb772")
+	)
+	(wire
+		(pts
+			(xy 132.08 85.09) (xy 137.16 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a79ba14-a576-403a-b42d-9a8b32e5af40")
+	)
+	(wire
+		(pts
+			(xy 204.47 90.17) (xy 224.79 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60749962-2749-4c4f-93db-84f6a913d142")
+	)
+	(wire
+		(pts
+			(xy 90.17 97.79) (xy 68.58 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "717fa6f9-1a83-499f-a904-072c9d9afaeb")
+	)
+	(wire
+		(pts
+			(xy 162.56 85.09) (xy 176.53 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75a97cec-302d-48a0-8ad1-3a1b29f37cf1")
+	)
+	(wire
+		(pts
+			(xy 68.58 102.87) (xy 90.17 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bae13c3-f1ab-40db-b218-680bf39eae4a")
+	)
+	(wire
+		(pts
+			(xy 176.53 102.87) (xy 118.11 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "805ce3dc-cb81-4333-b746-9f144a6a5af4")
+	)
+	(wire
+		(pts
+			(xy 137.16 85.09) (xy 137.16 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82a2bb52-36ae-44be-b562-ef27bbda6042")
+	)
+	(wire
+		(pts
+			(xy 68.58 85.09) (xy 90.17 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0253bd6-e316-4978-a428-f1c623d2b65d")
+	)
+	(wire
+		(pts
+			(xy 224.79 97.79) (xy 204.47 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae40e71f-984a-44a4-8f8f-aac8ff263bfc")
+	)
+	(wire
+		(pts
+			(xy 176.53 90.17) (xy 162.56 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9ba6311-d93c-4343-900c-c47935613209")
+	)
+	(wire
+		(pts
+			(xy 224.79 102.87) (xy 204.47 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdb5ceee-a67b-4288-9f90-9220899b5459")
+	)
+	(wire
+		(pts
+			(xy 118.11 85.09) (xy 124.46 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf029d5d-500d-41e7-b64a-6fa8f57ae471")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 224.79 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "1f68e307-9b42-4211-9594-4ecd6617ff97")
+	)
+	(hierarchical_label "DISCH1"
+		(shape input)
+		(at 68.58 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "3e0d5c18-4118-46a5-90b2-4a78325cae38")
+	)
+	(hierarchical_label "TO_PATIENT+"
+		(shape bidirectional)
+		(at 224.79 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "40a1425f-5dd8-4a89-8690-262bea8d5798")
+	)
+	(hierarchical_label "TO_PATIENT-"
+		(shape bidirectional)
+		(at 224.79 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "5bea4522-28fa-4354-a14b-06979f6736a1")
+	)
+	(hierarchical_label "ECG-"
+		(shape output)
+		(at 162.56 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "6a5198d8-d14b-4a92-b1a5-10a7f6bed45d")
+	)
+	(hierarchical_label "VIN-"
+		(shape passive)
+		(at 68.58 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "6ceb8780-ab3d-4dcd-8f77-d995bac1ab7c")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 68.58 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "8d0126f4-af70-43a1-ac51-287c1289f8ce")
+	)
+	(hierarchical_label "ECG+"
+		(shape output)
+		(at 162.56 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "9a974bcf-72de-48d3-9e8e-912d9b139c08")
+	)
+	(hierarchical_label "DISCH2"
+		(shape input)
+		(at 224.79 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "bd18c8ca-2013-4a3b-9002-0f1ebb76f649")
+	)
+	(hierarchical_label "VIN+"
+		(shape input)
+		(at 68.58 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "df996287-ced5-4e02-9c79-111e9e97c776")
+	)
+	(symbol
+		(lib_id "OAED-library:RTE24012")
+		(at 104.14 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000057d37e30")
+		(property "Reference" "K1"
+			(at 104.14 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "RTE24012"
+			(at 104.14 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "53dd9b86-7dab-4349-b3ad-b39909dd779c")
+		)
+		(pin "~"
+			(uuid "b10c0c8e-59d1-486b-8839-c64a3151ca1b")
+		)
+		(pin "~"
+			(uuid "935dac9c-aaeb-4f09-b3b2-8e93bf260592")
+		)
+		(pin "~"
+			(uuid "1da16492-3586-42b6-99bd-068fceb9c59a")
+		)
+		(pin "~"
+			(uuid "56b3d107-8d87-42ee-b422-b39f9c33b30b")
+		)
+		(pin "~"
+			(uuid "3daaea63-4fa8-4ee4-a4b8-6607b56d2a42")
+		)
+		(pin "~"
+			(uuid "7c2ca70d-b60d-4ce6-977e-ad95f4cf5b23")
+		)
+		(pin "~"
+			(uuid "03f24439-9e15-4e88-8a8b-7bac6350d6ce")
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 128.27 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000057d37eba")
+		(property "Reference" "R3"
+			(at 128.27 87.122 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 128.27 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 83.312 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48db202b-e6a7-4ac1-81b4-ecc705f15de7")
+		)
+		(pin "2"
+			(uuid "60ecb431-0eb3-4a8f-9d88-6adeea8f069a")
+		)
+	)
+	(symbol
+		(lib_id "OAED-library:RTE24012")
+		(at 190.5 93.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000057d37f50")
+		(property "Reference" "K2"
+			(at 190.5 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "RTE24012"
+			(at 190.5 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "04783f1a-ce78-4317-97db-6c1e92d792fd")
+		)
+		(pin "~"
+			(uuid "645afb11-69ed-4740-8154-79569207f8c5")
+		)
+		(pin "~"
+			(uuid "d6db3568-000d-4a02-b1f6-8473bed8c01f")
+		)
+		(pin "~"
+			(uuid "f3ff4e1d-141c-4176-93a9-95930a7e5220")
+		)
+		(pin "~"
+			(uuid "4fec4694-0082-479a-8015-f029298911ac")
+		)
+		(pin "~"
+			(uuid "5c88fb2b-c3e4-453b-8e42-39d45f6cdd28")
+		)
+		(pin "~"
+			(uuid "d6edd38b-0f9f-4b01-9884-159bd6f74ac9")
+		)
+		(pin "~"
+			(uuid "59c293c8-4094-48dc-9c11-a6b2cd8e9b59")
+		)
+	)
+)
