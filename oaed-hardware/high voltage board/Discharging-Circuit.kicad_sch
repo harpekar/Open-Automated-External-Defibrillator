@@ -147,6 +147,623 @@
 				)
 			)
 		)
+		(symbol "Driver_FET:TLP250"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TLP250"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://toshiba.semicon-storage.com/info/docget.jsp?did=16821&prodName=TLP250"
+				(at -2.286 0.127 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Gate Drive Optocoupler, Output Current 1.5/1.5A, DIP-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "MOSFET Driver IGBT Driver Optocoupler"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TLP250_0_1"
+				(rectangle
+					(start -7.62 8.89)
+					(end 7.62 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.715 -0.635) (xy -4.445 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0.635) (xy -1.905 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -3.81) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 3.81) (xy 1.27 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -4.445) (xy 5.08 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 4.445) (xy 5.08 6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -6.35) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -1.27) (xy 3.175 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 6.604 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 1.27) (xy 3.175 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 6.35) (xy 5.08 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 7.62) (xy 0.635 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.635) (xy -1.27 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0.635) (xy -1.27 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -6.35) (xy 0.635 -7.62) (xy 7.62 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -5.715) (xy 3.175 -1.905) (xy 3.175 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 5.715) (xy 3.175 1.905) (xy 3.175 1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 7.62) (xy -5.08 7.62) (xy -5.08 -7.62) (xy -7.62 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -0.635) (xy -5.715 0.635) (xy -4.445 0.635) (xy -5.08 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0.635) (xy -0.635 -0.635) (xy -1.905 -0.635) (xy -1.27 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 6.604 2.54) (xy 6.604 -2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -0.508) (xy -2.54 -0.508) (xy -2.921 -0.635) (xy -2.921 -0.381) (xy -2.54 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0.508) (xy -2.54 0.508) (xy -2.921 0.381) (xy -2.921 0.635) (xy -2.54 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.35) (xy 1.27 -6.35) (xy 0 -6.35) (xy 0 6.35) (xy 1.27 6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 2.159) (xy 4.191 2.667) (xy 4.699 1.651) (xy 3.683 2.159) (xy 3.683 2.159)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.953 -1.905) (xy 4.445 -1.397) (xy 3.937 -2.413) (xy 4.953 -1.905) (xy 4.953 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.635 6.35)
+					(end 0.635 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.635 6.35)
+					(end 0.635 7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.08 -7.62)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 5.08 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 5.08 1.27)
+					(end 5.08 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.08 7.62)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 6.604 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "TLP250_1_1"
+				(pin no_connect line
+					(at -7.62 2.54 0)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -7.62 -2.54 0)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "VEE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "OAED-library:R1SE/H2_0515"
 			(pin_names
 				(offset 1.016)
@@ -292,6 +909,268 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_IGBT:IRG4PF50W"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "IRG4PF50W"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "28A, 900V, N-Channel IGBT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel IGBT Power Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?247*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IRG4PF50W_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.254 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy 0.762 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.032) (xy 0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.413) (xy 0.762 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -0.889) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.413) (xy 0.762 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 -2.159) (xy 1.651 -1.651) (xy 2.54 -2.413) (xy 1.397 -2.159)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.159 1.905) (xy 1.905 2.413) (xy 1.016 1.651) (xy 2.159 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "IRG4PF50W_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2783,7 +3662,7 @@
 		(uuid "f4567cec-54f4-4180-9b4f-1d9d6f1ca28a")
 	)
 	(symbol
-		(lib_id "Q_NIGBT_GCE")
+		(lib_id "Transistor_IGBT:IRG4PF50W")
 		(at 77.47 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2809,23 +3688,28 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 82.55 64.77 0)
+		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
+			(at 82.55 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf"
 			(at 77.47 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "28A, 900V, N-Channel IGBT"
 			(at 77.47 67.31 0)
 			(effects
 				(font
@@ -2834,9 +3718,26 @@
 				(hide yes)
 			)
 		)
+		(pin "2"
+			(uuid "264f106e-4d27-4517-96af-3d5fb9c9c1cd")
+		)
+		(pin "3"
+			(uuid "d9034ec4-8c3c-44a4-826a-509e70d6b6a9")
+		)
+		(pin "1"
+			(uuid "1efd9081-c46a-494b-bd1e-990a8f6ec0f5")
+		)
+		(instances
+			(project "High-Voltage-board"
+				(path "/04ef437a-7613-4bde-8ffe-10ddaf6e0bfd/00000000-0000-0000-0000-000057d1ae49"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
-		(lib_id "TLP250")
+		(lib_id "Driver_FET:TLP250")
 		(at 50.8 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2860,32 +3761,65 @@
 				)
 			)
 		)
-		(property "Footprint" "DIP-8"
-			(at 46.99 77.47 0)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 50.8 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 46.863 67.31 0)
+		(property "Datasheet" "http://toshiba.semicon-storage.com/info/docget.jsp?did=16821&prodName=TLP250"
+			(at 48.514 67.183 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gate Drive Optocoupler, Output Current 1.5/1.5A, DIP-8"
 			(at 50.8 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3f3d874b-f908-49f2-b769-efd14fef3628")
+		)
+		(pin "6"
+			(uuid "f5368c0e-2db3-429a-952b-b1751ba86bea")
+		)
+		(pin "2"
+			(uuid "e49e6c92-fc22-43c6-a9ce-25bbd5770174")
+		)
+		(pin "1"
+			(uuid "dda90807-4e51-4888-bbe2-fab0e576fb5e")
+		)
+		(pin "7"
+			(uuid "00d65f1b-0283-4de3-b0c5-756c9ddb16d6")
+		)
+		(pin "8"
+			(uuid "12dc6e10-0874-4e35-8d65-e296e4ccad94")
+		)
+		(pin "5"
+			(uuid "78f2ff00-f8a7-45f7-bf3f-f4a5e4c23f9e")
+		)
+		(pin "4"
+			(uuid "9d04b53a-872b-4d2a-ab99-7de5fcc83c81")
+		)
+		(instances
+			(project "High-Voltage-board"
+				(path "/04ef437a-7613-4bde-8ffe-10ddaf6e0bfd/00000000-0000-0000-0000-000057d1ae49"
+					(reference "U3")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3015,7 +3949,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Q_NIGBT_GCE")
+		(lib_id "Transistor_IGBT:IRG4PF50W")
 		(at 77.47 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3041,23 +3975,28 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 82.55 110.49 0)
+		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
+			(at 82.55 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf"
 			(at 77.47 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "28A, 900V, N-Channel IGBT"
 			(at 77.47 113.03 0)
 			(effects
 				(font
@@ -3066,9 +4005,18 @@
 				(hide yes)
 			)
 		)
+		(pin "1"
+			(uuid "ee420f1d-99e6-4098-8399-a4c9fd7d58c7")
+		)
+		(pin "3"
+			(uuid "c07375db-6d33-4a19-89ea-b925b74451f6")
+		)
+		(pin "2"
+			(uuid "cf4f4742-921a-484e-bb16-714dad8b7c4d")
+		)
 	)
 	(symbol
-		(lib_id "TLP250")
+		(lib_id "Driver_FET:TLP250")
 		(at 50.8 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3092,26 +4040,27 @@
 				)
 			)
 		)
-		(property "Footprint" "DIP-8"
-			(at 46.99 123.19 0)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 50.8 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 46.863 113.03 0)
+		(property "Datasheet" "http://toshiba.semicon-storage.com/info/docget.jsp?did=16821&prodName=TLP250"
+			(at 48.514 112.903 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gate Drive Optocoupler, Output Current 1.5/1.5A, DIP-8"
 			(at 50.8 113.03 0)
 			(effects
 				(font
@@ -3119,6 +4068,30 @@
 				)
 				(hide yes)
 			)
+		)
+		(pin "2"
+			(uuid "3339c813-95d6-42d4-ae35-3282285c6741")
+		)
+		(pin "3"
+			(uuid "3212b466-23e5-4ec9-9c56-8a2398c7aa76")
+		)
+		(pin "5"
+			(uuid "fc562482-bf42-43cb-9f9e-08e68f1414c4")
+		)
+		(pin "6"
+			(uuid "b87ad51f-fba9-4f8c-bf7a-c23152a55870")
+		)
+		(pin "7"
+			(uuid "73615573-9513-4493-83a9-fc376480a2c8")
+		)
+		(pin "1"
+			(uuid "31a350f4-0208-428c-bbbd-e67c97f5d495")
+		)
+		(pin "4"
+			(uuid "9eb65504-ae50-4891-b00a-3756437a1404")
+		)
+		(pin "8"
+			(uuid "8a08ef6f-71be-4cb4-987d-3ab09973eb83")
 		)
 	)
 	(symbol
@@ -3247,7 +4220,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Q_NIGBT_GCE")
+		(lib_id "Transistor_IGBT:IRG4PF50W")
 		(at 133.35 67.31 0)
 		(mirror y)
 		(unit 1)
@@ -3274,23 +4247,28 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 128.27 64.77 0)
+		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
+			(at 128.27 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf"
 			(at 133.35 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "28A, 900V, N-Channel IGBT"
 			(at 133.35 67.31 0)
 			(effects
 				(font
@@ -3299,9 +4277,18 @@
 				(hide yes)
 			)
 		)
+		(pin "2"
+			(uuid "fcfb25e6-bc6c-4acf-9877-9b0b11f9fb70")
+		)
+		(pin "1"
+			(uuid "42067ab5-5b95-46df-807d-6d18238f4030")
+		)
+		(pin "3"
+			(uuid "5dca59b2-d77b-4289-b536-48ee3159812e")
+		)
 	)
 	(symbol
-		(lib_id "TLP250")
+		(lib_id "Driver_FET:TLP250")
 		(at 160.02 67.31 0)
 		(mirror y)
 		(unit 1)
@@ -3326,26 +4313,27 @@
 				)
 			)
 		)
-		(property "Footprint" "DIP-8"
-			(at 163.83 77.47 0)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 160.02 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 163.957 67.31 0)
+		(property "Datasheet" "http://toshiba.semicon-storage.com/info/docget.jsp?did=16821&prodName=TLP250"
+			(at 162.306 67.183 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gate Drive Optocoupler, Output Current 1.5/1.5A, DIP-8"
 			(at 160.02 67.31 0)
 			(effects
 				(font
@@ -3353,6 +4341,30 @@
 				)
 				(hide yes)
 			)
+		)
+		(pin "5"
+			(uuid "34b163c6-9bfc-4e25-9a9d-494889bfeb53")
+		)
+		(pin "7"
+			(uuid "a23d5b26-e593-4405-bf66-e318808dd2e7")
+		)
+		(pin "8"
+			(uuid "22c0238b-c538-46dc-b7af-0ed0b428161a")
+		)
+		(pin "6"
+			(uuid "ccfb4366-168c-4464-ad20-f7e8ded10cbe")
+		)
+		(pin "2"
+			(uuid "9b91fd9a-7d57-4a0a-95e1-6e20445ba904")
+		)
+		(pin "1"
+			(uuid "61c1d616-5dcf-4cf6-90c0-ca95bc2f3387")
+		)
+		(pin "4"
+			(uuid "e06fdd7b-0cbe-47ce-8413-f10b176574a1")
+		)
+		(pin "3"
+			(uuid "e349b0ac-c3c3-4541-9ea2-6934d2829c1a")
 		)
 	)
 	(symbol
@@ -3483,7 +4495,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Q_NIGBT_GCE")
+		(lib_id "Transistor_IGBT:IRG4PF50W")
 		(at 133.35 113.03 0)
 		(mirror y)
 		(unit 1)
@@ -3510,23 +4522,28 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 128.27 110.49 0)
+		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
+			(at 128.27 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf"
 			(at 133.35 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "28A, 900V, N-Channel IGBT"
 			(at 133.35 113.03 0)
 			(effects
 				(font
@@ -3535,9 +4552,18 @@
 				(hide yes)
 			)
 		)
+		(pin "3"
+			(uuid "ae1f7695-8473-443f-a37f-3177774685a4")
+		)
+		(pin "1"
+			(uuid "0cc9dfb4-192e-4f89-ad43-8d00922aec87")
+		)
+		(pin "2"
+			(uuid "77dffe80-d6c4-49d4-8e94-b71662e3247e")
+		)
 	)
 	(symbol
-		(lib_id "TLP250")
+		(lib_id "Driver_FET:TLP250")
 		(at 160.02 113.03 0)
 		(mirror y)
 		(unit 1)
@@ -3562,26 +4588,27 @@
 				)
 			)
 		)
-		(property "Footprint" "DIP-8"
-			(at 163.83 123.19 0)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 160.02 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 163.957 113.03 0)
+		(property "Datasheet" "http://toshiba.semicon-storage.com/info/docget.jsp?did=16821&prodName=TLP250"
+			(at 162.306 112.903 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gate Drive Optocoupler, Output Current 1.5/1.5A, DIP-8"
 			(at 160.02 113.03 0)
 			(effects
 				(font
@@ -3589,6 +4616,30 @@
 				)
 				(hide yes)
 			)
+		)
+		(pin "2"
+			(uuid "a89935c4-c2aa-4f95-b20b-3b2a6a6d12dc")
+		)
+		(pin "4"
+			(uuid "c2b5d8eb-3b2b-4cee-9c24-6a5d3c362287")
+		)
+		(pin "7"
+			(uuid "12ceba5a-d50b-4c36-abce-8c2796be38a1")
+		)
+		(pin "8"
+			(uuid "94bfa994-db2b-4442-afc2-21d595cd260b")
+		)
+		(pin "3"
+			(uuid "dac65dfb-5398-4ab7-9afc-c36f51081e45")
+		)
+		(pin "6"
+			(uuid "1c841129-492c-41d8-95e3-020b88d1c2c3")
+		)
+		(pin "1"
+			(uuid "b866eb45-e711-4d92-abeb-a02d12d7dff8")
+		)
+		(pin "5"
+			(uuid "9b94e0d3-6354-4ea5-a314-ec0483b9e7e3")
 		)
 	)
 	(symbol
@@ -3719,7 +4770,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Q_NIGBT_GCE")
+		(lib_id "Transistor_IGBT:IRG4PF50W")
 		(at 77.47 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3745,23 +4796,28 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 82.55 175.26 0)
+		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
+			(at 82.55 179.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf"
 			(at 77.47 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "28A, 900V, N-Channel IGBT"
 			(at 77.47 177.8 0)
 			(effects
 				(font
@@ -3770,9 +4826,18 @@
 				(hide yes)
 			)
 		)
+		(pin "3"
+			(uuid "f183b89d-694a-4c5c-a0b7-1799af1d2ee3")
+		)
+		(pin "2"
+			(uuid "bf39c63d-6c19-4b8a-838a-79c11a7629af")
+		)
+		(pin "1"
+			(uuid "3081a840-8232-4c11-aad7-2bd27de3fdb6")
+		)
 	)
 	(symbol
-		(lib_id "TLP250")
+		(lib_id "Driver_FET:TLP250")
 		(at 50.8 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3796,26 +4861,27 @@
 				)
 			)
 		)
-		(property "Footprint" "DIP-8"
-			(at 46.99 187.96 0)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 50.8 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 46.863 177.8 0)
+		(property "Datasheet" "http://toshiba.semicon-storage.com/info/docget.jsp?did=16821&prodName=TLP250"
+			(at 48.514 177.673 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gate Drive Optocoupler, Output Current 1.5/1.5A, DIP-8"
 			(at 50.8 177.8 0)
 			(effects
 				(font
@@ -3823,6 +4889,30 @@
 				)
 				(hide yes)
 			)
+		)
+		(pin "2"
+			(uuid "04490f8e-91dd-4aa5-9e0b-eb4dc08a27b0")
+		)
+		(pin "5"
+			(uuid "9149b512-3b98-4ff2-b62a-ac412c037382")
+		)
+		(pin "3"
+			(uuid "a81bb761-a101-4933-a3da-f60c4c55f434")
+		)
+		(pin "4"
+			(uuid "5973d8a0-ca20-47f8-9885-b82b92f6f10d")
+		)
+		(pin "7"
+			(uuid "982369bc-7075-4d17-bd87-84165884ae64")
+		)
+		(pin "6"
+			(uuid "1f370843-61a5-4d55-800e-4c790827cc59")
+		)
+		(pin "1"
+			(uuid "d3700ec2-ff26-470d-8119-d7e596eb6766")
+		)
+		(pin "8"
+			(uuid "c0148fe9-8ca6-4fee-afb1-34e8b01a0a7c")
 		)
 	)
 	(symbol
@@ -3951,7 +5041,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Q_NIGBT_GCE")
+		(lib_id "Transistor_IGBT:IRG4PF50W")
 		(at 77.47 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3977,23 +5067,28 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 82.55 220.98 0)
+		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
+			(at 82.55 225.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf"
 			(at 77.47 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "28A, 900V, N-Channel IGBT"
 			(at 77.47 223.52 0)
 			(effects
 				(font
@@ -4002,9 +5097,18 @@
 				(hide yes)
 			)
 		)
+		(pin "1"
+			(uuid "6639ba69-7bd7-4a4c-b3d3-8d5542ecbe0b")
+		)
+		(pin "3"
+			(uuid "0d390f90-bf77-446c-a10e-13c13ea5d993")
+		)
+		(pin "2"
+			(uuid "f6d938a8-047f-48ce-ad2b-20d4a172f8b6")
+		)
 	)
 	(symbol
-		(lib_id "TLP250")
+		(lib_id "Driver_FET:TLP250")
 		(at 50.8 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4028,26 +5132,27 @@
 				)
 			)
 		)
-		(property "Footprint" "DIP-8"
-			(at 46.99 233.68 0)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 50.8 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 46.863 223.52 0)
+		(property "Datasheet" "http://toshiba.semicon-storage.com/info/docget.jsp?did=16821&prodName=TLP250"
+			(at 48.514 223.393 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gate Drive Optocoupler, Output Current 1.5/1.5A, DIP-8"
 			(at 50.8 223.52 0)
 			(effects
 				(font
@@ -4055,6 +5160,30 @@
 				)
 				(hide yes)
 			)
+		)
+		(pin "5"
+			(uuid "6c8945d0-9341-46fc-ae82-a0cdb931da77")
+		)
+		(pin "1"
+			(uuid "122ae258-39e7-40db-a63d-6678ee515288")
+		)
+		(pin "8"
+			(uuid "a1eb2409-4c97-47ea-8cbe-72df2a2c1ec2")
+		)
+		(pin "7"
+			(uuid "c71f5097-c650-4d6a-aa7c-6a4af8cfa1fa")
+		)
+		(pin "2"
+			(uuid "b18cd59d-e9a6-40b7-acb7-a03aebaa3af8")
+		)
+		(pin "3"
+			(uuid "73166496-eeb0-413a-9ad1-a2dcc0274bee")
+		)
+		(pin "6"
+			(uuid "0c5fe25d-a353-43d1-a1dc-e443117538d9")
+		)
+		(pin "4"
+			(uuid "90405813-a199-4578-b9f1-65e6414d5b48")
 		)
 	)
 	(symbol
@@ -4117,7 +5246,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Q_NIGBT_GCE")
+		(lib_id "Transistor_IGBT:IRG4PF50W")
 		(at 133.35 177.8 0)
 		(mirror y)
 		(unit 1)
@@ -4144,23 +5273,28 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 128.27 175.26 0)
+		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
+			(at 128.27 179.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf"
 			(at 133.35 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "28A, 900V, N-Channel IGBT"
 			(at 133.35 177.8 0)
 			(effects
 				(font
@@ -4169,9 +5303,18 @@
 				(hide yes)
 			)
 		)
+		(pin "3"
+			(uuid "cef85b2a-f329-4a07-bdaa-80d352b310d0")
+		)
+		(pin "1"
+			(uuid "ee3e7122-7f01-4d54-a38e-e398f5d79697")
+		)
+		(pin "2"
+			(uuid "f1d1ece3-b9e4-4bdb-83f2-a939fbec063d")
+		)
 	)
 	(symbol
-		(lib_id "TLP250")
+		(lib_id "Driver_FET:TLP250")
 		(at 160.02 177.8 0)
 		(mirror y)
 		(unit 1)
@@ -4196,26 +5339,27 @@
 				)
 			)
 		)
-		(property "Footprint" "DIP-8"
-			(at 163.83 187.96 0)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 160.02 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 163.957 177.8 0)
+		(property "Datasheet" "http://toshiba.semicon-storage.com/info/docget.jsp?did=16821&prodName=TLP250"
+			(at 162.306 177.673 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gate Drive Optocoupler, Output Current 1.5/1.5A, DIP-8"
 			(at 160.02 177.8 0)
 			(effects
 				(font
@@ -4223,6 +5367,30 @@
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "95e111b7-17fd-4796-a559-a51a220649d5")
+		)
+		(pin "2"
+			(uuid "ed1ecd86-d5bc-4ee2-8c11-3aeb11b9a756")
+		)
+		(pin "3"
+			(uuid "d7db7036-af42-49d8-b12a-c8cb6351027d")
+		)
+		(pin "4"
+			(uuid "8b483c4e-005e-4ee3-875a-d05286da302b")
+		)
+		(pin "5"
+			(uuid "c7923596-eaa5-4bad-8dee-aa5a2cb33562")
+		)
+		(pin "7"
+			(uuid "208c9312-dc51-471e-b7ee-f4d5aa60e1c6")
+		)
+		(pin "6"
+			(uuid "95fe1827-0bd7-4920-beca-59caec37de0e")
+		)
+		(pin "8"
+			(uuid "799d5e02-c3a5-42ca-b41c-88f4c7de48f5")
 		)
 	)
 	(symbol
@@ -4353,7 +5521,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Q_NIGBT_GCE")
+		(lib_id "Transistor_IGBT:IRG4PF50W")
 		(at 133.35 223.52 0)
 		(mirror y)
 		(unit 1)
@@ -4380,23 +5548,28 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 128.27 220.98 0)
+		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
+			(at 128.27 225.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf"
 			(at 133.35 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "28A, 900V, N-Channel IGBT"
 			(at 133.35 223.52 0)
 			(effects
 				(font
@@ -4405,9 +5578,18 @@
 				(hide yes)
 			)
 		)
+		(pin "1"
+			(uuid "d27bbd66-5c31-4f9e-b16d-80cfcd6efdc4")
+		)
+		(pin "3"
+			(uuid "a38f328b-7194-4b56-92d5-a44147032ba9")
+		)
+		(pin "2"
+			(uuid "7372ed61-47a5-40f9-8179-e24ed352046b")
+		)
 	)
 	(symbol
-		(lib_id "TLP250")
+		(lib_id "Driver_FET:TLP250")
 		(at 160.02 223.52 0)
 		(mirror y)
 		(unit 1)
@@ -4432,26 +5614,27 @@
 				)
 			)
 		)
-		(property "Footprint" "DIP-8"
-			(at 163.83 233.68 0)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 160.02 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 163.957 223.52 0)
+		(property "Datasheet" "http://toshiba.semicon-storage.com/info/docget.jsp?did=16821&prodName=TLP250"
+			(at 162.306 223.393 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Gate Drive Optocoupler, Output Current 1.5/1.5A, DIP-8"
 			(at 160.02 223.52 0)
 			(effects
 				(font
@@ -4459,6 +5642,30 @@
 				)
 				(hide yes)
 			)
+		)
+		(pin "2"
+			(uuid "83e2b77e-ce5b-4ffa-8624-9aa0fd52de7b")
+		)
+		(pin "4"
+			(uuid "a20bfa36-ea1f-4c25-860b-64669c2be19b")
+		)
+		(pin "5"
+			(uuid "ceb9d751-a91e-44d2-8e45-61211c4325b1")
+		)
+		(pin "6"
+			(uuid "7c4c5c37-34c0-4943-a2f0-be01f5b8624e")
+		)
+		(pin "7"
+			(uuid "fd3e60aa-ba20-4645-b8a5-48e423d045d2")
+		)
+		(pin "3"
+			(uuid "d633178f-d682-41a1-943c-f9720e3e53bf")
+		)
+		(pin "8"
+			(uuid "8227fe49-2d27-416e-88b9-19b2fe161613")
+		)
+		(pin "1"
+			(uuid "040b2e03-e212-4e75-9331-d7d82108bb3e")
 		)
 	)
 	(symbol
